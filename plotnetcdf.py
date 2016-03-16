@@ -29,7 +29,7 @@ print(comando)
 # Extract the significant wave height of combined wind waves and swell
 
 file = netCDF4.Dataset(url,diskless=True,persist=True,format='NETCDF4')
-file.netCDF4.Dataset(filename="/home/eduardo/Script/scripts-gerais/teste.nc",diskless=True,persist=True,format='NETCDF4', mode='w')
+#file.netCDF4.Dataset(filename="/home/eduardo/Script/scripts-gerais/teste.nc",diskless=True,persist=True,format='NETCDF4', mode='w')
 lat  = file.variables['lat'][:]
 lon  = file.variables['lon'][:]
 data = file.variables['htsgwsfc'][1,:,:]
