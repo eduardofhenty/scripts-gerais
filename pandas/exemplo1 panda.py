@@ -51,7 +51,7 @@ def aplicar_fdiariov2(df_bruto,sitio,name_var,name_col):
 
 
 
-sitio = "k67"
+sitio = "sitio"
 df_bruto = pd.read_csv( "flx_raw.csv" ,  sep=";")
 #Imprime as primeiras linhas do ficheiro
 print(df_bruto.head( ))
@@ -77,7 +77,7 @@ df['daten'] =  new_ts_series
 
 #Leitura de planilha excel
 name_f = "descritor_variaveis_dados_brutos.xlsx"
-df_desc = pd.read_excel(name_f,"k67_raw")
+df_desc = pd.read_excel(name_f,"sitio_raw")
 #Novos nomes
 df_desc.columns= ["variavel","descricao","status"]
 #Acha os indices iguais desprez
