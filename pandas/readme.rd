@@ -6,7 +6,12 @@ Inclui também facegrid.
 
 ## Resultado
 
-![Alt text](https://github.com/eduardofhenty/scripts-gerais/blob/master/interpola%20em%20shapefile/exemplo%20interpola%C3%A7%C3%A3o%20dentro%20de%20um%20shapefile%20.png?raw=true "Resultado da interpolação")
+![Alt text](https://github.com/eduardofhenty/scripts-gerais/blob/master/pandas/exemplo%204/plot%20de%20barra%20Tmin%20e%20Tmax%20por%20mes%20em%20subplots.png?raw=true?raw=true "Plot")
+![Alt text](https://github.com/eduardofhenty/scripts-gerais/blob/master/pandas/exemplo%204/plot_histograma%20Tmax%20e%20Tmin_v2.png?raw=true "Plot")
+![Alt text](?raw=true?raw=true "Plot")
+![Alt text](?raw=true?raw=true "Plot")
+![Alt text](?raw=true?raw=true "Plot")
+
 
 ## Requisitos
 Indicado no script
