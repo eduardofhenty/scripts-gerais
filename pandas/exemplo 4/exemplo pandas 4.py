@@ -13,8 +13,7 @@ from numpy import mean
 
 #Leitura dos dados de temperatura diária mínima e máxima. Fonte IPMA
 #name_f = "C:/script python/dado/tmintmaxdaily_1855-2018_Lisbon-Geofisico.xlsx"
-path_fig = "C:/data3/SITES FLUXTOWER/figura/"
-name_f = "C:/data3/SITES FLUXTOWER/tmintmaxdaily_1855-2018_Lisbon-Geofisico.xlsx"
+path_fig = "C:/data3/figura/"
 df = pd.read_excel( name_f, "tmintmaxdaily_1855-2018_Lisbon-",skiprows=2)
 #Seleciona as colunas de interesse
 df = df.iloc[:,0:5]
