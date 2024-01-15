@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Aug  4 13:49:41 2022
+Atualizado em 15-01-2024
+Testa em python 3.8
 Exemplo de como interpolar um conjunto de dados dentro dos
 límites de shapefile
 author: Eduardo Fernandes Henriques
@@ -70,9 +71,11 @@ zi = griddata((x, y), z, (xi[None,:], yi[:,None]), method='cubic')
 cs = plt.contourf(xi,yi,zi,15,cmap=plt.cm.jet)
 
 valores_bar= np.round ( np.linspace(13.5, 37,9),  decimals=0)
+
+
 cb=plt.colorbar(   ) #  draw colorbar
 cb.ax.set_ylabel('Temperatura ºC', rotation=270,labelpad=12   )
-cb.set_ticks(ticks=valores_bar, ticklabels=valores_bar  )
+#cb.set_ticks(ticks=valores_bar, ticklabels=valores_bar  )
 
 # plot data points.
 plt.scatter(x,y,marker='o',c='b',s=5)
@@ -102,7 +105,6 @@ for shape in sf.shapeRecords():
             
 
 plt.show()
-
 
 
 
